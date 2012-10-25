@@ -15,7 +15,7 @@ return array(
                 'options' => array(
                     'route'    => '/',
                     'defaults' => array(
-                        'controller' => 'Alcarin\Controller\Index',
+                        'controller' => 'App\Controller\Index',
                         'action'     => 'index',
                     ),
                 ),
@@ -29,7 +29,7 @@ return array(
                 'options' => array(
                     'route'    => '/application',
                     'defaults' => array(
-                        '__NAMESPACE__' => 'Alcarin\Controller',
+                        '__NAMESPACE__' => 'App\Controller',
                         'controller'    => 'Index',
                         'action'        => 'index',
                     ),
@@ -69,7 +69,7 @@ return array(
     ),
     'controllers' => array(
         'invokables' => array(
-            'Alcarin\Controller\Index' => 'Alcarin\Controller\IndexController'
+            'App\Controller\Index' => 'App\Controller\IndexController'
         ),
     ),
     'view_manager' => array(
@@ -81,7 +81,7 @@ return array(
         'exception_template'       => 'error/index',
         'template_map' => array(
             'layout/layout'           => __DIR__ . '/../view/layout/layout.phtml',
-            'application/index/index' => __DIR__ . '/../view/alcarin/index/index.phtml',
+            'application/index/index' => __DIR__ . '/../view/app/index/index.phtml',
             'error/404'               => __DIR__ . '/../view/error/404.phtml',
             'error/index'             => __DIR__ . '/../view/error/index.phtml',
         ),

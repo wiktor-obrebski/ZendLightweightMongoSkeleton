@@ -13,7 +13,7 @@
 
 return array(
     'mongo' => array(
-        'database'  => 'alcarin',
+        'database'  => 'dbname',
         //profiling enable
         'profiling' => true,
     ),

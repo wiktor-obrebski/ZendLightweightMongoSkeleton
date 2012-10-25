@@ -10,10 +10,8 @@
         <!-- Le styles -->
         <?php echo $this->headLink(array('rel' => 'shortcut icon', 'type' => 'image/vnd.microsoft.icon', 'href' => $this->basePath() . '/images/favicon.ico'))
                         ->prependStylesheet($this->basePath() . '/css/bootstrap-responsive.min.css')
-                        ->appendBundle('css_bundle')
-                        ->prependStylesheet($this->basePath() . '/css/test.css')
-                        ->prependStylesheet($this->basePath() . '/css/compiled_less/test.css')
-                        ->prependStylesheet($this->basePath() . '/css/bootstrap.min.css') ?>
+                        ->prependStylesheet($this->basePath() . '/css/bootstrap.min.css')
+                        ->appendBundle('css_bundle') ?>
 
         <!-- Scripts -->
         <?php

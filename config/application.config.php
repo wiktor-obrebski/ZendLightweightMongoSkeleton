@@ -1,13 +1,11 @@
 <?php
 return array(
     'modules' => array(
-        'Alcarin',
+        'App',
         'Core',
         //external libraries
         'AssetsCompiler',
         'ZfcTwig',
-        'ZfcBase',
-        'ZfcUser',
         /*'DoctrineModule',
         'DoctrineMongoODMModule',
         //adapter for zfc-user and mongo-odm

@@ -13,7 +13,7 @@ use Zend\Mvc\ModuleRouteListener;
 use Zend\Mvc\MvcEvent;
 
 /**
- * alcarin system core module, should contains classes that will be shared between
+ * App system core module, should contains classes that will be shared between
  * system api modules.
  */
 class Module
