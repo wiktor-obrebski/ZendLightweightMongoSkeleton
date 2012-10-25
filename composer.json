@@ -1,0 +1,40 @@
+{
+    "name": "alcarin/alcarin",
+    "description": "Alcarin MMORPG",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "alcarin",
+        "rpg"
+    ],
+    "homepage": "http://projectksi.com/",
+    "minimum-stability" : "dev",
+    "repositories" : [
+        {
+            "type": "package",
+            "package": {
+                "name": "colinmollenhour/mongodb-php-odm",
+                "version": "dev-master",
+                "dist": {
+                    "url": "https://github.com/colinmollenhour/mongodb-php-odm/zipball/master",
+                    "type": "zip"
+                },
+                "autoload": {
+                    "classmap": ["classes/"]
+                }
+            }
+        }
+    ],
+    "require": {
+        "php"                               : ">=5.4.0",
+        "zendframework/zendframework"       : "2.*",
+        "psychowico/assets-compiler"        : "dev-master",
+
+        "zf-commons/zfc-twig"               : "dev-master",
+        "zf-commons/zfc-base"               : "dev-master",
+        "zf-commons/zfc-user"               : "dev-master",
+
+        "zendframework/zend-developer-tools": "dev-master",
+        "webino/zf2nette-debug"             : "1.1.0",
+        "colinmollenhour/mongodb-php-odm"   : "dev-master"
+    }
+}
