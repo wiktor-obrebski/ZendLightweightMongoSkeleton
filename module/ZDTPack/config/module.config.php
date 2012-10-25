@@ -18,7 +18,7 @@ return array(
 
     'service_manager' => array(
         'invokables' => array(
-            'ZDTPack\TestCollector'     => 'ZDTPack\Collector\TestCollector',
+            'ZDTPack\MongoCollector'     => 'ZDTPack\Collector\MongoCollector',
             'ZDTPack\MongoCollection'   => 'ZDTPack\MongoCollection',
         ),
     ),

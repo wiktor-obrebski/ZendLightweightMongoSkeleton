@@ -100,7 +100,7 @@ return array(
              */
             'collectors' => array(
                 'db' => null,
-                'test'  => 'ZDTPack\TestCollector'
+                'mongo'  => 'ZDTPack\MongoCollector'
              ),
         ),
          /**
