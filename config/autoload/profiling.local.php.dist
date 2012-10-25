@@ -161,7 +161,7 @@ return array(
              * Expects: array
              */
             'entries' => array(
-                'test'  => 'zdt-pack/toolbar/test-collector'
+                'mongo'  => 'zdt-pack/toolbar/mongo-collector'
             ),
         ),
     ),
