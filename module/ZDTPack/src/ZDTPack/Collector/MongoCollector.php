@@ -28,7 +28,7 @@ class MongoCollector extends AbstractCollector
      */
     public function getName()
     {
-        return 'test';
+        return 'mongo';
     }
 
     /**
