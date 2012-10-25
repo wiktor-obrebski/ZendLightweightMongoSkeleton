@@ -6,10 +6,6 @@ return array(
         //external libraries
         'AssetsCompiler',
         'ZfcTwig',
-        /*'DoctrineModule',
-        'DoctrineMongoODMModule',
-        //adapter for zfc-user and mongo-odm
-        'ZfcUserDoctrineMongoODM',*/
         //profiling modules, can be removed in production
         'ZendDeveloperTools',
         'ZDTPack',
